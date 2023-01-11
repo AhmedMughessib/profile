@@ -144,11 +144,14 @@ h1 {
     text-align: center;
 }
 .box {
+    height: 90vh;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .card {
-    width: 250px;
+    width: 30%;
     background-color: var(--bgColor-2);
     border-radius: 20px;
     padding: 1.3rem 2rem;
